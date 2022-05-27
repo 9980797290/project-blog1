@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { back } from "./Components/Api";
 const Bollywood = () => {
-  const [data, setData] = useContext(back);
+  const [data] = useContext(back);
 
   return (
     <>
