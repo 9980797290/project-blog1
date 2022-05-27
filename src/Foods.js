@@ -1,7 +1,7 @@
 import React,{ useContext } from 'react'
 import {food} from './Components/Apifoods'
 const Foods = () => {
-    const [dataCric, setDataCric] = useContext(food);
+    const [dataCric] = useContext(food);
     return (
       <>
       <div className="contentPage">
