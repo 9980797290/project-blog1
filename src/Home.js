@@ -3,7 +3,7 @@ import { home } from './Components/ApiHome';
 
 
 const Home = () => {
-  const [dataHome, setDataHome] = useContext(home);
+  const [dataHome] = useContext(home);
   return (
 
     <div>
